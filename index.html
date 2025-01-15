@@ -1,27 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
+    <head>
+        <title>Search</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
 
-<head>
-    <title>Search</title>
-    <link rel="stylesheet" href="style.css">
-</head>
+    <body>
+        <div class="google">
+            <div class="google__nav-bar">
+                <a href="advanced_search.html" class="google__nav-bar-link">Advanced Search</a>
+                <a href="images.html" class="google__nav-bar-link">Images</a>
+            </div>
 
-<body>
-<div class="screen">
-    <div class="nav-bar">
-        <a href="advanced_search.html">Advanced Search</a>
-        <a href="images.html">Images</a>
-    </div>
-
-    <form class="main-content" action="https://www.google.com/search">
-        <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"
-             alt="Google Logo" class="logo-light">
-        <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_light_color_272x92dp.png"
-             alt="Google Logo" class="logo-dark">
-        <input type="text" name="q" class="search-bar">
-        <input type="submit" value="Google Search" class="button">
-    </form>
-</div>
-</body>
-
+            <div class="google__main-content">
+                <img
+                    src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"
+                    alt=""
+                    class="google__logo"
+                >
+                <form class="google__main-content-search-form" action="https://www.google.com/search">
+                    <input type="text" name="q" class="google__search-bar">
+                    <button type="submit" class="button">Google search</button>
+                </form>
+            </div>
+        </div>
+    </body>
 </html>
